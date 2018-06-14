@@ -1,0 +1,28 @@
+a.nav-link {
+    margin: 0 15px 0 15px;
+}
+
+hr {
+    margin-top:50px;margin-bottom:50px;
+}
+
+.footer {
+    margin: 20px 0 0 0;
+    position: sticky;
+    text-align:center;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    background-color: #f8f9fa;
+  }
+
+img.details {
+    width: 100%;
+    margin: 15px auto;
+}
+
+.productimg {
+    width: 100%;
+    margin: 15px auto;
+}
