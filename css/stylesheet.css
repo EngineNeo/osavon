@@ -8,7 +8,7 @@ hr {
 
 .footer {
     margin: 20px 0 0 0;
-    position: sticky;
+    position: relative;
     text-align:center;
     bottom: 0;
     width: 100%;

@@ -1,6 +1,5 @@
 <?php include 'includes/head.php';
 include 'includes/navigation.php';
-include 'includes/footer.php';
 ?>
       <!-- Contents -->
         <div class="container">
@@ -29,5 +28,9 @@ include 'includes/footer.php';
         <div class="form-group">
           <label for="customertextarea">Tell us what you'd like to know</label>
           <textarea class="form-control" id="customertextarea" rows="5"></textarea>
+        </div>
+      </div>
+          <?php include 'includes/footer.php' ;
+          ?>
       </body>
   </html>
