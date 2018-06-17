@@ -1,4 +1,6 @@
-<?php include 'includes/head.php';
+<?php 
+include 'includes/head.php';
+$page = 'contact' ;
 include 'includes/navigation.php';
 ?>
       <!-- Contents -->

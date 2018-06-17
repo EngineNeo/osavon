@@ -1,6 +1,7 @@
 <?php 
 require_once 'core/init.php' ;
 include 'includes/head.php';
+$page = 'index' ;
 include 'includes/navigation.php';
 
 $sql = "SELECT * FROM products WHERE store = 1" ;
