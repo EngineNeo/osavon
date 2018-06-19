@@ -23,7 +23,7 @@ $product = mysqli_fetch_assoc($result) ;
 						</div>
 						<div class="col-md-6">
 							<h4>Description</h4>
-							<p><?= $product['description'] ?></p>
+							<p><?= nl2br($product['description']); ?></p>
 							<hr>
 							<p>Price: $<?= $product['price'] ?></p>
 							<form action="add_cart.php" method="post">

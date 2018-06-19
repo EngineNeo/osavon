@@ -7,24 +7,18 @@ hr {
 }
 
 html {
-    height: 100%;
-    box-sizing: border-box;
-  }
-  
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-  
-  body {
+height: 100%;
+box-sizing: border-box;
+}
+
+body {
     position: relative;
     margin: 0;
     padding-bottom: 6rem;
     min-height: 100%;
-  }
+}
 
-  .footer {
+.footer {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -34,7 +28,7 @@ html {
     line-height: 40px;
     background-color: #f8f9fa;
     text-align: center;
-  }
+}
 
 img.details {
     width: 100%;
@@ -44,4 +38,9 @@ img.details {
 .productimg {
     width: 100%;
     margin: 15px auto;
+}
+
+.saved-image {
+    width: 100px ;
+    height: auto ;
 }

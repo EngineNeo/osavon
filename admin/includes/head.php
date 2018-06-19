@@ -16,7 +16,7 @@
       <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
       <!-- CSS Stylesheet -->
-      <link rel="stylesheet" href="../css/stylesheet.css">
+      <link rel="stylesheet" href="../css/main.css">
 
       <title>Administrator</title>
 
