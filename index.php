@@ -23,7 +23,6 @@ $store = $db->query($sql);
         </li>
       </ol>
 
-
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img alt="First slide" class="d-block w-100" src="./img/soap1.jpg">

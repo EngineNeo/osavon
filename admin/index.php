@@ -1,8 +1,11 @@
 <?php
     require_once '../core/init.php';
+    if(!is_logged_in()){
+        header('Location: login.php');
+    }
     include 'includes/head.php' ; 
     $page = 'index' ;
-    include 'includes/navigation.php' ; 
+    include 'includes/navigation.php' ;
 ?>
 
 <h1 class="display-3 text-center">Administrator Dashboard</h1>

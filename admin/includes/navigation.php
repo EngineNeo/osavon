@@ -13,17 +13,23 @@
             <li class="nav-item <?php if($page=='products'){echo 'active';}?>">
               <a class="nav-link" href="products.php">Products<span class="sr-only">(current)</span></a>
             </li>
-        <!-- <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.php">Store <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="about.php">About <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="contact.php">Contact <span class="sr-only">(current)</span></a>
-          </li>
-        </ul> -->
+            <li class="nav-item <?php if($page=='archive'){echo 'active';}?>">
+              <a class="nav-link" href="archive.php">Archive<span class="sr-only">(current)</span></a>
+            </li>
+            <?php if(has_permission('admin')): ?>
+            <li class="nav-item <?php if($page=='users'){echo 'active';}?>">
+              <a class="nav-link" href="users.php">Users<span class="sr-only">(current)</span></a>
+            </li>
+            <?php endif; ?>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hello <?=$user_data['first']; ?>!
+                <span class="caret"></span>
+              </a>
+              <div class="dropdown-menu" role="menu">
+                <a class="dropdown-item" href="change_password.php">Change password</a>
+                <a class="dropdown-item" href="logout.php">Log Out</a>
+              </div>
+            </li>
       </div>
     </div>
   </nav>
